@@ -31,8 +31,8 @@ function digPow(n, p) {
   n
     .toString()
     .split("")
-    .forEach(function (element) {
-      prod = prod + Math.pow(element, p);
+    .forEach((element) => {
+      prod += Math.pow(element, p);
       p++;
     });
 
@@ -40,10 +40,10 @@ function digPow(n, p) {
   else return -1;
 }
 
-digPow(89, 1);
-digPow(695, 2);
-digPow(46288, 3);
+console.log(digPow(89, 1));
+console.log(digPow(695, 2));
+console.log(digPow(46288, 3));
 
-digPow(92, 1);
-digPow(695, 3);
+console.log(digPow(92, 1));
+console.log(digPow(695, 3));
 
