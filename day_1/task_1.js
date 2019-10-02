@@ -36,8 +36,7 @@ function digPow(n, p) {
       p++;
     });
 
-  if ((prod % n) === 0) return prod / n;
-  else return -1;
+  return ((prod % n) === 0) ? (prod / n): -1;
 }
 
 console.log(digPow(89, 1));
