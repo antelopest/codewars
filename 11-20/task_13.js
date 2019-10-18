@@ -72,7 +72,6 @@ function numberOfSigfigs(n) {
   return (+arr.join('')).toString().length;
 }
 
-
 console.log(numberOfSigfigs('404')); // 404 // 3
 console.log(numberOfSigfigs('10')); // 10 // 1
 console.log(numberOfSigfigs('37000')); // 37 // 2
