@@ -16,64 +16,75 @@ console.log(hasSubpattern("123A123a123a"));
 console.log(hasSubpattern("abbaabbaabba"));
 console.log(hasSubpattern("abbabbabba"));
 console.log(hasSubpattern("abcdabcabcd"));
+console.log(hasSubpattern("Lnir2X6oESWaprEZtUsZbAV4G48tY7Y6nS1XIILU0InrDeNvxljkYpbiB"));
+
 //
+
 // function hasSubpattern (string) {
-//   return string.split('').reduce((result, element, index, array) => {
-//     // Ecли длина массива 1
-//     if (array.length === 1) return false;
-//     // console.log('Длина массива больше 1, RESULT:', result);
-//     // Если result boolean
-//     if ('boolean' === typeof(result)) return result;
-//
-//     // Если длина массива = ++индексу
-//     if (array.length === ++index) return false;
-//
-//
-//     if (SubPattern(result + element)) return true;
-//
-//     return result += element;
-//   }, '');
-//
-//   function SubPattern(str) {
-//     let lastStr = string.lastIndexOf(srt);
-//     console.log()
-//     //
-//     // console.log(str);
-//     // if (string.lastIndexOf(str)) {
-//     //   let Sub = string.match(new RegExp(str, 'g'));
-//     //   if (Sub === null) return false;
-//     //   if (string === Sub.join('')) return true;
-//     //
-//     //   return false;
-//     // }
-//
+//   let count = string.match(new RegExp(string[0],'g'));
+//   if (count !== null) {
+//     let pattern = string.slice(0, ++count.length);
+//     console.log(pattern);
+//     let arr = string.match(new RegExp(pattern, 'g'));
+//     if (arr !== null) {
+//       console.log(arr.join(''), ' ', string);
+//       if (arr.join("") == string) {
+//         return true;
+//       } else return false;
+//     }
 //   }
 // }
-//
-// // let a = '123412341234';
-// //
-// // console.log(a.match(/123/g).join(""));
-// //
-// // let a = '123';
-// // let sub = new RegExp(a, 'g');
-// // console.log('123123123'.match(sub));
-//
-// // console.log('123123123'.match(new RegExp('2', 'g')).join(''));
-//
 
-function hasSubpattern (string) {
-  let count = string.match(new RegExp(string[0],'g'));
-  if (count !== null) {
-    let pattern = string.slice(0, ++count.length);
-    console.log(pattern);
-    let arr = string.match(new RegExp(pattern, 'g'));
-    if (arr !== null) {
-      console.log(arr.join(''), ' ', string);
-      if (arr.join("") == string) {
-        return true;
-      } else return false;
-    }
+function hasSubpattern(string) {
+  if (string.length === 1) return false;
+
+  let result;
+
+  function returnArr (string) {
+    if (result !== undefined) return;
+    console.log(string);
+    let arr = string.split(string[0]).join('').slice(0).split('');
+
+    if (arr.length === 0) result = true;
+    if (arr[0] !== arr[1] && arr.length > 2) result = true;
+    if (arr[0] !== arr[1] && arr.length === 2) result = false;
+
+    console.log(arr.join());
+    returnArr(arr.join(''));
   }
 
+  returnArr(string);
+  return result;
 }
 
+
+function hasSubpattern (string) {
+  if (string.length === 1) return false;
+
+  let result;
+  let arr = [];
+  console.log(string);
+  function returnArr (string) {
+    if (result !== undefined) return;
+
+    let arr = [];
+
+    if (string.lenght % 2 === 0) {
+      arr = string.split(string.slice(0, 2)).join('').slice(1).split('');
+    }
+    if (string.lenght % 3 === 0) {
+      arr = string.split(string.slice(0, 3)).join('').slice(2).split('');
+    }
+    console.log(arr.join(''))
+
+    if (arr.length === 0) result = true;
+
+    if (arr[0] !== arr[1] || arr.length >= 2) result = false;
+    if (arr[0] == arr[1] || arr.length === 2) result = true;
+
+    returnArr(arr.join(''));
+  }
+
+  returnArr(string);
+  return result;
+}
