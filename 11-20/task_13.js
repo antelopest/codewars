@@ -30,7 +30,7 @@
 //
 
 
-function numberOfSigfigs(n) {
+// function numberOfSigfigs(n) {
   // console.log(n.split('').reverse().join('').toString());
   // return n
   //   .split('')
@@ -54,7 +54,47 @@ function numberOfSigfigs(n) {
   //   }, [])
   //   .join('')
   //   // .length
+// }
+
+
+function numberOfSigfigs(n) {
+  if (+n === 0) return 0;
+
+  let arr = n.split(new RegExp(/[,.]/, 'g'));
+
+  if (arr.length === 1) {
+    return (+(+arr[0].split('').join('')).toString().split('').reverse().join('')).toString().length;
+  }
+
+  if (+arr[0] === 0) return (arr[1]).toString().length;
+  if (+arr[1] === 0) return (+arr[0] + arr[1]).length;
+
+  return (+arr.join('')).toString().length;
 }
-// console.log(numberOfSigfigs('404'));
-console.log(numberOfSigfigs('0,10700')); // 10700
-// console.log(numberOfSigfigs('0,100020'));
+
+
+console.log(numberOfSigfigs('404')); // 404 // 3
+console.log(numberOfSigfigs('10')); // 10 // 1
+console.log(numberOfSigfigs('37000')); // 37 // 2
+console.log(numberOfSigfigs('370')); // 37 // 2
+console.log(numberOfSigfigs('0.00700')); // 700 // 3
+console.log(numberOfSigfigs('0.052')); // 52 // 2
+console.log(numberOfSigfigs('10.0')); // 10,0 // 3
+console.log(numberOfSigfigs('705.001')); // 705,001 // 6
+console.log(numberOfSigfigs('002'));
+console.log(numberOfSigfigs('0'));
+console.log(numberOfSigfigs('012020.010'));
+console.log(numberOfSigfigs('8843820.0000'));
+console.log(numberOfSigfigs('00689554000.0'));
+console.log(numberOfSigfigs('0.0150910'));
+console.log(numberOfSigfigs('1.0'));
+console.log(numberOfSigfigs('00689554000.0'));
+console.log(numberOfSigfigs('000.3146670000'));
+console.log(numberOfSigfigs('0041.49050000'));
+console.log(numberOfSigfigs('0000.06453900'));
+console.log(numberOfSigfigs('000029034.500'));
+console.log(numberOfSigfigs('000568.100000'));
+console.log(numberOfSigfigs('000.006801650'));
+
+
+
