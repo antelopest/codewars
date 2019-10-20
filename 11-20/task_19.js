@@ -32,7 +32,6 @@ const rangeBitCount = (a, b, arr = []) => {
 
   return (a !== b) ? (rangeBitCount(++a, b, arr)) :
     (arr.reduce((result, element) => {
-      console.log(arr);
       return result += element.toString().split('').reduce((result, element) => {
         return result += +element;
       }, 0);
