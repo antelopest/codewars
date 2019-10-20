@@ -38,7 +38,6 @@ const rangeBitCount = (a, b, arr = []) => {
     }, 0))
 };
 
-
 const assertEquals = (got, expected) => {
   (got == expected) ? (console.log(`TRUE got: ${got} expected: ${expected}`)) :
     (console.log(`FALSE got: ${got} expected: ${expected}`));
