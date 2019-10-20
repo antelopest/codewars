@@ -2,9 +2,7 @@
 // 'You're given one parameter, the original string.
 // You don't have to worry with strings with less than two characters.
 
-const removeChar = (str) => {
-  return str.slice(1, --str.length);
-}
+const removeChar = (str) => str.slice(1, -1);
 
 const assertEquals = (got, expected) => {
   (got === expected) ? (console.log(`TRUE got: ${got} expected: ${expected}`)) :
