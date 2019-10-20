@@ -1,8 +1,7 @@
 // Given a positive integer N, return the largest integer k such that 3^k < N.
 
 const largestPower = (n, k = 1) => {
-  console.log('n', n, 'k', k, '3^k', Math.pow(3, k));
-  return (n < Math.pow(3, k)) ? (--k) : (largestPower(n, ++k));
+  return (n === 1) ? (-1) : (n < Math.pow(3, k) || n === Math.pow(3, k)) ? (--k) : (largestPower(n, ++k));
 }
 
 const assertEquals = (got, expected) => {
