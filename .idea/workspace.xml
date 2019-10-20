@@ -1,7 +1,10 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="9bdb8eab-1f2a-48d6-a0f6-944f0d360663" name="Default Changelist" comment="" />
+    <list default="true" id="9bdb8eab-1f2a-48d6-a0f6-944f0d360663" name="Default Changelist" comment="">
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/11-20/task_16.js" beforeDir="false" afterPath="$PROJECT_DIR$/11-20/task_16.js" afterDir="false" />
+    </list>
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -22,6 +25,8 @@
   <component name="ProjectLevelVcsManager" settingsEditedManually="true" />
   <component name="PropertiesComponent">
     <property name="WebServerToolWindowFactoryState" value="false" />
+    <property name="last_opened_file_path" value="P:/html-coding/barbershop" />
+    <property name="settings.editor.selected.configurable" value="vcs.Git" />
   </component>
   <component name="RunDashboard">
     <option name="ruleStates">
@@ -48,6 +53,12 @@
       <workItem from="1570016862259" duration="8524000" />
       <workItem from="1570101486464" duration="705000" />
       <workItem from="1570102262113" duration="10233000" />
+      <workItem from="1571103804838" duration="10055000" />
+      <workItem from="1571179682605" duration="23434000" />
+      <workItem from="1571341048780" duration="14917000" />
+      <workItem from="1571368742894" duration="188000" />
+      <workItem from="1571423229831" duration="11405000" />
+      <workItem from="1571539427607" duration="1634000" />
     </task>
     <servers />
   </component>
