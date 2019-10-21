@@ -82,4 +82,4 @@ const createSpiral = (n) => {
   return arr;
 }
 
-console.log(createSpiral(6));
+console.log(createSpiral(1));
