@@ -12,7 +12,7 @@
 // "String.prototype.toAlternatingCase".toAlternatingCase() === "sTRING.PROTOTYPE.TOaLTERNATINGcASE"
 
 String.prototype.toAlternatingCase = function () {
-  console.log(this);
+  return this.split('').map(char => char == char.toLowerCase() ? char.toUpperCase() : char.toLowerCase()).join('');
 }
 
-'hello WORLD'.toAlternatingCase();
+console.log('hello WORLD'.toAlternatingCase());
