@@ -19,3 +19,4 @@
 
 // The input array and continent names will always be valid and formatted as in the list above for example 'Africa' will always start with upper-case 'A'.
 
+// TAST_3 DONE in folder task 
