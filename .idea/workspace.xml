@@ -3,7 +3,33 @@
   <component name="ChangeListManager">
     <list default="true" id="9bdb8eab-1f2a-48d6-a0f6-944f0d360663" name="Default Changelist" comment="">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/11-30/task_24.js" beforeDir="false" afterPath="$PROJECT_DIR$/11-30/task_24.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/1-10/task_1.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/1-10/task_10.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/1-10/task_2.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/1-10/task_3.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/1-10/task_4.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/1-10/task_5.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/1-10/task_6.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/1-10/task_7.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/1-10/task_8.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/1-10/task_9.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/11-20/^Z" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/11-20/task_11.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/11-20/task_12.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/11-20/task_13.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/11-20/task_14.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/11-20/task_15.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/11-20/task_16.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/11-20/task_17.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/11-20/task_18.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/11-20/task_19.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/11-20/task_20.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/21-30/task_21.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/21-30/task_22.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/21-30/task_23.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/21-30/task_24.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/5 kyu/1.js" beforeDir="false" afterPath="$PROJECT_DIR$/5 kyu/1.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/8 kyu/6.js" beforeDir="false" afterPath="$PROJECT_DIR$/8 kyu/6.js" afterDir="false" />
     </list>
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="SHOW_DIALOG" value="false" />
@@ -25,7 +51,7 @@
   <component name="ProjectLevelVcsManager" settingsEditedManually="true" />
   <component name="PropertiesComponent">
     <property name="WebServerToolWindowFactoryState" value="false" />
-    <property name="last_opened_file_path" value="$PROJECT_DIR$" />
+    <property name="last_opened_file_path" value="$PROJECT_DIR$/../projects/bookinghouse/client/booking-house" />
     <property name="settings.editor.selected.configurable" value="vcs.Git" />
   </component>
   <component name="RunDashboard">
@@ -61,6 +87,8 @@
       <workItem from="1571539427607" duration="7524000" />
       <workItem from="1571794951178" duration="3597000" />
       <workItem from="1571798565041" duration="3523000" />
+      <workItem from="1571854091274" duration="9167000" />
+      <workItem from="1571877799196" duration="14328000" />
     </task>
     <servers />
   </component>
