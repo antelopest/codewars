@@ -19,7 +19,7 @@
 // }
 
 // or 
-// Shit code
-const gap = num => Math.max.apply(null, Number(num).toString(2).split(1).map(x => x.length));
+// Shit code 
+const gap = num => Math.max.apply(null, Number(num).toString(2).split(1).map(x => x.length).slice(0, -1));
 
 console.log(gap('20'), (20).toString(2));
