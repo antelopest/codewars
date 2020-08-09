@@ -1,4 +1,7 @@
-**Выполнение различных задач по программированию Codewars**
+**Codewars**
 
-Мой профиль на сервисе Codewars:
+Решение различных задач с сервиса Codewars
+
+**Мой профиль:**
+
 https://www.codewars.com/users/antelopest
