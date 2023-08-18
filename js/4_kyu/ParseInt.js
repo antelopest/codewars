@@ -85,7 +85,6 @@ const parseInt = num => {
   return amountOfUnits + amountOfHundreds + amountOfMultitudes;
 }
 
-
 console.log(
     parseInt('one'),
     parseInt('two hundred forty-six')
