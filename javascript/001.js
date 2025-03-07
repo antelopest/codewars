@@ -25,5 +25,6 @@ const done = (input, output) => {
 }
 
 tests.forEach(test => {
+
     done(test.input, test.output);
 })
