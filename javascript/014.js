@@ -28,18 +28,9 @@ const wordList = [
     'appeal', 'appear', 'appearance', 'application',
     'apply', 'appoint', 'appointment', 'approach',
     'appropriate', 'approve', 'area', 'argue', 'aera'
-]
+];
 
-const unscramble = (s) => {
-    let words = wordList.filter(w => w.length === s.length)
-        .map(w => [w.split('').sort().join(''), w]);
-    s = s.split('').sort().join('');
-
-    return words.filter(w => w[0] === s ? true : false)
-        .map(w => w[1]);
-}
-
-const unscramble1 = (scramble) => {
+const unscramble = (scramble) => {
     scramble = scramble.split('').sort().join('');
     return wordList.filter(w => w.split('').sort().join('') === scramble);
 }
