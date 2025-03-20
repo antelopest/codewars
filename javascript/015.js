@@ -27,5 +27,4 @@ const solution = (s) => {
     return arr;
 }
 
-console.log('abc');
 console.log(solution('abc'));
